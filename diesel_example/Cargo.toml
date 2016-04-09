@@ -1,0 +1,10 @@
+[package]
+name = "diesel_example"
+version = "0.1.0"
+authors = ["outersky <outersky@gmail.com>"]
+
+[dependencies]
+diesel = "0.5.0"
+diesel_codegen = { version = "0.5.0", default-features = false, features = ["postgres"] }
+dotenv = "0.8.0"
+dotenv_macros = { version = "0.8.0", optional = true }
