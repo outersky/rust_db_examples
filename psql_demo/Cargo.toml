@@ -1,0 +1,9 @@
+[package]
+name = "psql_demo"
+version = "0.1.0"
+authors = ["tony"]
+
+[dependencies]
+postgres = "0.11"
+dotenv = "0.8.0"
+dotenv_macros = "0.8.0"
